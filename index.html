@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>WhatsApp Unban Service - Get Your Account Back Fast</title>
+    <meta name="description" content="Professional WhatsApp account recovery service. Get your banned WhatsApp account unbanned quickly and safely with our expert team.">
+    <meta name="keywords" content="WhatsApp unban, WhatsApp recovery, banned WhatsApp, account recovery, WhatsApp support">
+    <meta property="og:title" content="WhatsApp Unban Service - Get Your Account Back Fast">
+    <meta property="og:description" content="Professional WhatsApp account recovery service. Get your banned WhatsApp account unbanned quickly and safely.">
+    <meta name="twitter:title" content="WhatsApp Unban Service - Get Your Account Back Fast">
+    <meta name="twitter:description" content="Professional WhatsApp account recovery service. Get your banned WhatsApp account unbanned quickly and safely.">
+
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react@18/umd/react.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://resource.trickle.so/vendor_lib/unpkg/lucide-static@0.516.0/font/lucide.css" rel="stylesheet">
+
+    <!-- Predefined Tailwind CSS, use it as needed, or update base on your -->
+    <style type="text/tailwindcss">
+    @layer theme {
+        :root {
+            --primary-color: #25D366;
+            --secondary-color: #128C7E;
+            --accent-color: #075E54;
+            --text-primary: #D9C57C;
+            --text-secondary: #D9C57C;
+            --bg-light: #004048;
+            --bg-main: #004048;
+            --success-color: #10b981;
+            --warning-color: #f59e0b;
+        }
+    }
+
+    @layer base {
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            line-height: 1.6;
+            background-color: var(--bg-main);
+            color: var(--text-primary);
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+    }
+
+    @layer components {
+        .btn-primary {
+            @apply px-8 py-3 rounded-lg font-semibold text-white transition-all duration-300 hover:shadow-lg;
+            background-color: var(--primary-color);
+        }
+        
+        .btn-primary:hover {
+            background-color: var(--secondary-color);
+            transform: translateY(-2px);
+        }
+        
+        .btn-secondary {
+            @apply px-8 py-3 rounded-lg font-semibold border-2 transition-all duration-300;
+            color: var(--primary-color);
+            border-color: var(--primary-color);
+        }
+        
+        .btn-secondary:hover {
+            background-color: var(--primary-color);
+            color: white;
+        }
+        
+        .feature-card {
+            @apply p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border;
+            background-color: rgba(217, 197, 124, 0.1);
+            border-color: rgba(217, 197, 124, 0.3);
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .service-step {
+            @apply flex items-center space-x-4 p-4 rounded-lg shadow-md;
+            background-color: rgba(217, 197, 124, 0.1);
+        }
+        
+        .testimonial-card {
+            @apply p-6 rounded-xl shadow-lg border;
+            background-color: rgba(217, 197, 124, 0.1);
+            border-color: rgba(217, 197, 124, 0.3);
+        }
+    }
+
+    @layer utilities {
+        .text-gradient {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .bg-gradient-primary {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+        }
+    }
+    </style>
+
+</head>
+<body>
+    <div id="root"></div>
+    
+    <script type="text/babel" src="components/Header.js"></script>
+    <script type="text/babel" src="components/Hero.js"></script>
+    <script type="text/babel" src="components/Features.js"></script>
+    <script type="text/babel" src="components/Process.js"></script>
+    <script type="text/babel" src="components/Testimonials.js"></script>
+    <script type="text/babel" src="components/Contact.js"></script>
+    <script type="text/babel" src="components/Footer.js"></script>
+    <script type="text/babel" src="app.js"></script>
+</body>
+</html>
