@@ -24,13 +24,13 @@ function Footer() {
               </p>
               <div className="flex space-x-4">
                 <a href="#" className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-white/20 transition-colors">
-                  <div className="icon-facebook text-lg"></div>
+                  <div className="icon-facebook text-lg"></div>facebooksymbol
                 </a>
                 <a href="#" className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-white/20 transition-colors">
-                  <div className="icon-twitter text-lg"></div>
+                  <div className="icon-twitter text-lg"></div>twittersymbol
                 </a>
                 <a href="#" className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-white/20 transition-colors">
-                  <div className="icon-instagram text-lg"></div>
+                  <div className="icon-instagram text-lg"></div>instagramsymbol
                 </a>
               </div>
             </div>
