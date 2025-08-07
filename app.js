@@ -47,6 +47,7 @@ function App() {
           <Contact />
         </main>
         <Footer />
+        <blogContent />
       </div>
     );
   } catch (error) {
