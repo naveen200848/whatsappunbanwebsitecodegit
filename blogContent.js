@@ -21,7 +21,7 @@ const blogContent = {
       "How to appeal or recover": "Steps to appeal a ban:\n1. Open WhatsApp and follow the on-screen instructions for banned accounts.\n2. Tap 'Support' and describe your issue.\n3. Submit your appeal and wait for a response.\n4. Alternatively, email support@whatsapp.com with your account details.",
       "Preventive measures": "To prevent future bans:\n- Avoid violating WhatsApp's terms\n- Do not use unofficial apps\n- Communicate responsibly\n- Monitor your account activity",
       "FAQs": {
-        "Is there a way to contact WhatsApp directly?": "Yes, you can email support@whatsapp.com or use the in-app support feature.",
+        "Is there a way to contact WhatsApp directly?": No, even you email them they won't respond back and emailing them will not resolve issue for most of them and we as a technical team help you in restoring with some software tools",
         "Will I lose my chat history?": "If the ban is lifted, your chat history may be restored if backed up.",
         "Can I create a new account?": "Yes, but it's better to resolve the issue with your current account to avoid repeated bans."
       }
