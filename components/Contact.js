@@ -64,9 +64,9 @@ function Contact() {
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-4xl font-bold mb-4">Get Your Account Back</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">Start Your Account Recovery Today</h2>
               <p className="text-xl text-[var(--text-secondary)]">
-                Fill out the form below and our experts will start working on your case immediately.
+                Fill out the form below and our <strong>expert recovery specialists</strong> will start working on your case <strong>immediately</strong>.
               </p>
             </div>
 
@@ -111,7 +111,8 @@ function Contact() {
                       value={formData.email}
                       onChange={handleInputChange}
                       placeholder="your.email@example.com"
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[var(--primary-color)] focus:border-transparent"
+                      className="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-[var(--primary-color)] focus:border-transparent"
+                      style={{backgroundColor: 'rgba(217, 197, 124, 0.1)', borderColor: 'rgba(217, 197, 124, 0.3)', color: '#D9C57C'}}
                       required
                     />
                   </div>
@@ -125,7 +126,8 @@ function Contact() {
                       name="banDate"
                       value={formData.banDate}
                       onChange={handleInputChange}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[var(--primary-color)] focus:border-transparent"
+                      className="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-[var(--primary-color)] focus:border-transparent"
+                      style={{backgroundColor: 'rgba(217, 197, 124, 0.1)', borderColor: 'rgba(217, 197, 124, 0.3)', color: '#D9C57C'}}
                       required
                     />
                   </div>
@@ -138,7 +140,8 @@ function Contact() {
                       name="banReason"
                       value={formData.banReason}
                       onChange={handleInputChange}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[var(--primary-color)] focus:border-transparent"
+                      className="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-[var(--primary-color)] focus:border-transparent"
+                      style={{backgroundColor: 'rgba(217, 197, 124, 0.1)', borderColor: 'rgba(217, 197, 124, 0.3)', color: '#D9C57C'}}
                       required
                     >
                       <option value="">Select reason</option>
@@ -160,7 +163,8 @@ function Contact() {
                       onChange={handleInputChange}
                       rows="4"
                       placeholder="Please provide any additional details about your case..."
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[var(--primary-color)] focus:border-transparent"
+                      className="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-[var(--primary-color)] focus:border-transparent"
+                      style={{backgroundColor: 'rgba(217, 197, 124, 0.1)', borderColor: 'rgba(217, 197, 124, 0.3)', color: '#D9C57C'}}
                     ></textarea>
                   </div>
 

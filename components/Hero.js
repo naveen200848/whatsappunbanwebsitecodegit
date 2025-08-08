@@ -13,10 +13,10 @@ function Hero() {
           <div className="max-w-4xl mx-auto text-center">
             <div className="mb-8">
               <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                Get Your <span className="text-gradient">WhatsApp</span> Account Back
+                Get Your WhatsApp Account Back
               </h1>
               <p className="text-xl md:text-2xl text-[var(--text-secondary)] mb-8 leading-relaxed">
-                Professional WhatsApp account recovery service in India. We help you regain access to your banned WhatsApp account quickly and safely.
+                <strong>Professional WhatsApp account recovery service in India.</strong> We help you regain access to your banned WhatsApp account <strong>quickly and safely</strong>.
               </p>
             </div>
 

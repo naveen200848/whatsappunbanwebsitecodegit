@@ -1,10 +1,18 @@
 function Footer() {
   try {
-    const scrollToSection = (sectionId) => {
+    const navigateToSection = (sectionId) => {
       const element = document.getElementById(sectionId);
       if (element) {
+        // Section exists on current page - scroll to it
         element.scrollIntoView({ behavior: 'smooth' });
+      } else {
+        // Section doesn't exist - navigate to home page with hash
+        window.location.href = `index.html#${sectionId}`;
       }
+    };
+
+    const navigateToPage = (page) => {
+      window.location.href = page;
     };
 
     return (
@@ -24,13 +32,13 @@ function Footer() {
               </p>
               <div className="flex space-x-4">
                 <a href="#" className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-white/20 transition-colors">
-                  <div className="icon-facebook text-lg"></div>facebooksymbol
+                  <div className="icon-facebook text-lg"></div>
                 </a>
                 <a href="#" className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-white/20 transition-colors">
-                  <div className="icon-twitter text-lg"></div>twittersymbol
+                  <div className="icon-twitter text-lg"></div>
                 </a>
                 <a href="#" className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-white/20 transition-colors">
-                  <div className="icon-instagram text-lg"></div>instagramsymbol
+                  <div className="icon-instagram text-lg"></div>
                 </a>
               </div>
             </div>
@@ -40,23 +48,24 @@ function Footer() {
               <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
               <ul className="space-y-2">
                 <li>
-                  <button onClick={() => scrollToSection('home')} className="transition-colors" style={{color: 'rgba(217, 197, 124, 0.8)'}} onMouseOver={(e) => e.target.style.color = '#D9C57C'} onMouseOut={(e) => e.target.style.color = 'rgba(217, 197, 124, 0.8)'}>
-                    Home
+                  <button onClick={() => navigateToSection('home')} className="transition-colors" style={{color: 'rgba(217, 197, 124, 0.8)'}} onMouseOver={(e) => e.target.style.color = '#D9C57C'} onMouseOut={(e) => e.target.style.color = 'rgba(217, 197, 124, 0.8)'}>
+                    Home Page
                   </button>
                 </li>
                 <li>
-                  <button onClick={() => scrollToSection('features')} className="transition-colors" style={{color: 'rgba(217, 197, 124, 0.8)'}} onMouseOver={(e) => e.target.style.color = '#D9C57C'} onMouseOut={(e) => e.target.style.color = 'rgba(217, 197, 124, 0.8)'}>
-                    Features
+                  <button onClick={() => navigateToSection('features')} className="transition-colors" style={{color: 'rgba(217, 197, 124, 0.8)'}} onMouseOver={(e) => e.target.style.color = '#D9C57C'} onMouseOut={(e) => e.target.style.color = 'rgba(217, 197, 124, 0.8)'}>
+                    Service Features
+                  </button>
+                </li>
+
+                <li>
+                  <button onClick={() => navigateToPage('blog.html')} className="transition-colors" style={{color: 'rgba(217, 197, 124, 0.8)'}} onMouseOver={(e) => e.target.style.color = '#D9C57C'} onMouseOut={(e) => e.target.style.color = 'rgba(217, 197, 124, 0.8)'}>
+                    Blog & Tips
                   </button>
                 </li>
                 <li>
-                  <button onClick={() => scrollToSection('process')} className="transition-colors" style={{color: 'rgba(217, 197, 124, 0.8)'}} onMouseOver={(e) => e.target.style.color = '#D9C57C'} onMouseOut={(e) => e.target.style.color = 'rgba(217, 197, 124, 0.8)'}>
-                    How It Works
-                  </button>
-                </li>
-                <li>
-                  <button onClick={() => scrollToSection('testimonials')} className="transition-colors" style={{color: 'rgba(217, 197, 124, 0.8)'}} onMouseOver={(e) => e.target.style.color = '#D9C57C'} onMouseOut={(e) => e.target.style.color = 'rgba(217, 197, 124, 0.8)'}>
-                    Reviews
+                  <button onClick={() => navigateToSection('faq')} className="transition-colors" style={{color: 'rgba(217, 197, 124, 0.8)'}} onMouseOver={(e) => e.target.style.color = '#D9C57C'} onMouseOut={(e) => e.target.style.color = 'rgba(217, 197, 124, 0.8)'}>
+                    FAQ
                   </button>
                 </li>
               </ul>
@@ -67,17 +76,18 @@ function Footer() {
               <h4 className="text-lg font-semibold mb-4">Support</h4>
               <ul className="space-y-2">
                 <li>
-                  <button onClick={() => scrollToSection('Blogs')} className="transition-colors" style={{color: 'rgba(217, 197, 124, 0.8)'}} onMouseOver={(e) => e.target.style.color = '#D9C57C'} onMouseOut={(e) => e.target.style.color = 'rgba(217, 197, 124, 0.8)'}>
-                    Blogs
+                  <button onClick={() => navigateToSection('process')} className="transition-colors" style={{color: 'rgba(217, 197, 124, 0.8)'}} onMouseOver={(e) => e.target.style.color = '#D9C57C'} onMouseOut={(e) => e.target.style.color = 'rgba(217, 197, 124, 0.8)'}>
+                    Recovery Process Steps
                   </button>
                 </li>
                 <li>
-                  <button onClick={() => scrollToSection('Blogs')} className="transition-colors" style={{color: 'rgba(217, 197, 124, 0.8)'}} onMouseOver={(e) => e.target.style.color = '#D9C57C'} onMouseOut={(e) => e.target.style.color = 'rgba(217, 197, 124, 0.8)'}>
-                    FAQ
+                  <button onClick={() => navigateToSection('testimonials')} className="transition-colors" style={{color: 'rgba(217, 197, 124, 0.8)'}} onMouseOver={(e) => e.target.style.color = '#D9C57C'} onMouseOut={(e) => e.target.style.color = 'rgba(217, 197, 124, 0.8)'}>
+                    Customer Success Stories
                   </button>
                 </li>
+
                 <li>
-                  <button onClick={() => scrollToSection('contact')} className="transition-colors" style={{color: 'rgba(217, 197, 124, 0.8)'}} onMouseOver={(e) => e.target.style.color = '#D9C57C'} onMouseOut={(e) => e.target.style.color = 'rgba(217, 197, 124, 0.8)'}>
+                  <button onClick={() => navigateToSection('contact')} className="transition-colors" style={{color: 'rgba(217, 197, 124, 0.8)'}} onMouseOver={(e) => e.target.style.color = '#D9C57C'} onMouseOut={(e) => e.target.style.color = 'rgba(217, 197, 124, 0.8)'}>
                     Contact Us
                   </button>
                 </li>

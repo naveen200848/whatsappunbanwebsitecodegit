@@ -34,24 +34,19 @@ class ErrorBoundary extends React.Component {
   }
 }
 
-function App() {
+function BlogApp() {
   try {
     return (
-      <div className="min-h-screen" data-name="app" data-file="app.js">
+      <div className="min-h-screen" data-name="blog-app" data-file="blog-app.js">
         <Header />
-        <main>
-          <Hero />
-          <Features />
-          <Process />
-          <Testimonials />
-          <Contact />
-          <FAQ />
+        <main className="pt-20">
+          <Blog />
         </main>
         <Footer />
       </div>
     );
   } catch (error) {
-    console.error('App component error:', error);
+    console.error('BlogApp component error:', error);
     return null;
   }
 }
@@ -59,6 +54,6 @@ function App() {
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <ErrorBoundary>
-    <App />
+    <BlogApp />
   </ErrorBoundary>
 );
