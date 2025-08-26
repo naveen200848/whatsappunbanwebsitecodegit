@@ -25,7 +25,7 @@ function Footer() {
                 <div className="w-10 h-10 bg-[var(--primary-color)] rounded-full flex items-center justify-center">
                   <div className="icon-phone text-xl text-white"></div>
                 </div>
-                <h3 className="text-xl font-bold">WhatsApp Unban</h3>
+                <h3 className="text-xl font-bold">idigitalworks</h3>
               </div>
               <p className="mb-6 leading-relaxed" style={{color: 'rgba(217, 197, 124, 0.8)'}}>
                 Professional WhatsApp account recovery service helping thousands of Indian users regain access to their banned accounts safely and quickly.
