@@ -22,10 +22,14 @@ function Footer() {
             {/* Company Info */}
             <div className="md:col-span-2">
               <div className="flex items-center space-x-3 mb-4">
-                <div className="w-10 h-10 bg-[var(--primary-color)] rounded-full flex items-center justify-center">
-                  <div className="icon-phone text-xl text-white"></div>
+                <div className="w-12 h-12 rounded-full overflow-hidden bg-white flex items-center justify-center">
+                  <img 
+                    src="https://app.trickle.so/storage/public/images/usr_131ddd4760000001/8f366981-fea4-47f3-9301-582d6bd307bb.png" 
+                    alt="iDigitalWorks Logo" 
+                    className="w-10 h-10 object-contain"
+                  />
                 </div>
-                <h3 className="text-xl font-bold">idigitalworks</h3>
+                <h3 className="text-xl font-bold">WhatsApp Unban</h3>
               </div>
               <p className="mb-6 leading-relaxed" style={{color: 'rgba(217, 197, 124, 0.8)'}}>
                 Professional WhatsApp account recovery service helping thousands of Indian users regain access to their banned accounts safely and quickly.
