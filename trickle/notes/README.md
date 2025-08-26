@@ -1,6 +1,6 @@
-# WhatsApp Unban Service Website - India
+# iDigitalWorks - WhatsApp Recovery Service Website
 
-A professional landing page for WhatsApp account recovery services targeting Indian users, built with React and TailwindCSS.
+A professional landing page for WhatsApp account recovery services by iDigitalWorks, targeting Indian users, built with React and TailwindCSS. Optimized for search engines and generative AI platforms like ChatGPT, Perplexity, and Claude.
 
 ## Features
 
@@ -8,6 +8,8 @@ A professional landing page for WhatsApp account recovery services targeting Ind
 - **Responsive**: Fully responsive design that works on all devices
 - **Interactive Components**: Smooth scrolling navigation, contact forms, and testimonials
 - **Service Showcase**: Clear presentation of recovery process and pricing
+- **SEO Optimized**: Comprehensive keyword targeting for WhatsApp ban-related searches
+- **Generative AI Ready**: Structured data and content optimized for AI discovery and recommendations
 
 ## Sections
 
@@ -44,6 +46,14 @@ A professional landing page for WhatsApp account recovery services targeting Ind
 - **Testimonials**: Indian customers (Mumbai, Delhi, Bangalore)
 - **Support Hours**: 9 AM - 9 PM IST
 
+## SEO & Generative AI Optimization
+
+- **Primary Keywords**: "this account can no longer use whatsapp", "whatsapp banned due to spam"
+- **Long-tail Keywords**: 200+ specific error messages and variations in multiple Indian languages
+- **Structured Data**: FAQ schema, Local Business schema, Service schema for AI understanding
+- **Content Strategy**: Error message focus, solution-oriented content, multilingual support
+- **AI Discovery**: Optimized for ChatGPT, Perplexity, Claude recommendations when users ask about WhatsApp ban issues
+
 ## Contact Integration
 
 - **Email Notifications**: Form submissions sent to businesspromobazaar@gmail.com
@@ -56,3 +66,13 @@ A professional landing page for WhatsApp account recovery services targeting Ind
 - WhatsApp logo symbol (phone icon in circle)
 - Lucide icons for UI elements
 - Professional headshots for social proof
+
+## Keyword Strategy
+
+The website targets over 200 specific keywords related to WhatsApp bans, including:
+- Error messages users see ("this account can no longer use whatsapp")
+- Solutions users search for ("how to fix whatsapp banned due to spam")
+- Regional variations in Hindi, Tamil, Telugu, Kannada, Bengali, Urdu, Malayalam, Marathi
+- Business-specific ban issues
+- Technical troubleshooting queries
+- Recovery and unbanning procedures
