@@ -27,7 +27,7 @@ function Header() {
               <div className="w-10 h-10 bg-gradient-primary rounded-full flex items-center justify-center">
                 <div className="icon-phone text-xl text-white"></div>
               </div>
-              <h1 className="text-xl font-bold text-gradient">WhatsApp Unban</h1>
+              <h1 className="text-xl font-bold text-gradient">idigitalworks</h1>
             </div>
 
             {/* Desktop Navigation */}
