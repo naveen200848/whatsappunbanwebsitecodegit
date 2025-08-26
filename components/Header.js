@@ -26,7 +26,7 @@ function Header() {
             <div className="flex items-center space-x-3">
               <div className="w-12 h-12 rounded-full overflow-hidden bg-white flex items-center justify-center">
                 <img 
-                  src="https://github.com/naveen200848/whatsappunbanwebsitecodegit/blob/main/trickle/assets/idigitalworkslogocompact.jpg" 
+                  src="https://app.trickle.so/storage/public/images/usr_131ddd4760000001/8f366981-fea4-47f3-9301-582d6bd307bb.png" 
                   alt="iDigitalWorkslogocompact" 
                   className="w-12 h-12 object-contain"
                 />
