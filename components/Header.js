@@ -24,7 +24,7 @@ function Header() {
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
-              <div className="w-20 h-20 rounded-full overflow-hidden bg-white flex items-center justify-center">
+              <div className="w-80 h-80 rounded-full overflow-hidden bg-white flex items-center justify-center">
                 <img 
                   src="https://github.com/naveen200848/whatsappunbanwebsitecodegit/blob/main/trickle/assets/idigitalworkslogocompact.jpg" 
                   alt="iDigitalWorkslogocompact" 
