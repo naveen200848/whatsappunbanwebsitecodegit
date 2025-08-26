@@ -25,7 +25,11 @@ function Header() {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
               <div className="w-10 h-10 bg-gradient-primary rounded-full flex items-center justify-center">
-                <div className="icon-phone text-xl text-white"></div>
+                 <img 
+                  src="https://github.com/naveen200848/whatsappunbanwebsitecodegit/blob/main/trickle/assets/idigitalworkslogocompact.jpg" 
+                  alt="iDigitalWorks Logo" 
+                  className="w-8 h-8 object-contain"
+                />
               </div>
               <h1 className="text-xl font-bold text-gradient">idigitalworks</h1>
             </div>
