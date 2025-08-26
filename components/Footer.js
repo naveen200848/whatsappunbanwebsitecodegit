@@ -29,10 +29,10 @@ function Footer() {
                     className="w-10 h-10 object-contain"
                   />
                 </div>
-                <h3 className="text-xl font-bold">WhatsApp Unban</h3>
+                <h3 className="text-xl font-bold">iDigitalWorks</h3>
               </div>
               <p className="mb-6 leading-relaxed" style={{color: 'rgba(217, 197, 124, 0.8)'}}>
-                Professional WhatsApp account recovery service helping thousands of Indian users regain access to their banned accounts safely and quickly.
+                iDigitalWorks - Professional WhatsApp account recovery service helping thousands of Indian users regain access to their banned accounts safely and quickly.
               </p>
               <div className="flex space-x-4">
                 <a href="#" className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-white/20 transition-colors">
@@ -101,7 +101,7 @@ function Footer() {
 
           <div className="border-t border-white/20 mt-12 pt-8 text-center">
             <p style={{color: 'rgba(217, 197, 124, 0.8)'}}>
-              © 2024 WhatsApp Unban Service. All rights reserved. Not affiliated with WhatsApp Inc.
+              © 2025 iDigitalWorks. All rights reserved. Not affiliated with WhatsApp Inc.
             </p>
           </div>
         </div>
