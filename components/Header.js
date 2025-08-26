@@ -24,14 +24,14 @@ function Header() {
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 bg-gradient-primary rounded-full flex items-center justify-center">
-                 <img 
+              <div className="w-10 h-10 rounded-full overflow-hidden bg-white flex items-center justify-center">
+                <img 
                   src="https://github.com/naveen200848/whatsappunbanwebsitecodegit/blob/main/trickle/assets/idigitalworkslogocompact.jpg" 
-                  alt="iDigitalWorks Logo" 
+                  alt="iDigitalWorkslogocompact" 
                   className="w-8 h-8 object-contain"
                 />
               </div>
-              <h1 className="text-xl font-bold text-gradient">idigitalworks</h1>
+              <h1 className="text-xl font-bold text-gradient">WhatsApp Unban</h1>
             </div>
 
             {/* Desktop Navigation */}
