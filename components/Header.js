@@ -24,13 +24,7 @@ function Header() {
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
-              <div className="w-12 h-12 rounded-full overflow-hidden bg-white flex items-center justify-center">
-                <img 
-                  src="https://app.trickle.so/storage/public/images/usr_131ddd4760000001/8f366981-fea4-47f3-9301-582d6bd307bb.png" 
-                  alt="iDigitalWorks Logo" 
-                  className="w-10 h-10 object-contain"
-                />
-              </div>
+
               <h1 className="text-xl font-bold text-gradient">iDigitalWorks</h1>
             </div>
 
