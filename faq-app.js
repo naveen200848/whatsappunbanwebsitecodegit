@@ -21,7 +21,7 @@ class ErrorBoundary extends React.Component {
             <p className="text-gray-600 mb-4">We're sorry, but something unexpected happened.</p>
             <button
               onClick={() => window.location.reload()}
-              className="btn btn-black"
+              className="btn-primary"
             >
               Reload Page
             </button>
@@ -34,24 +34,19 @@ class ErrorBoundary extends React.Component {
   }
 }
 
-function App() {
+function FAQApp() {
   try {
     return (
-      <div className="min-h-screen" data-name="app" data-file="app.js">
+      <div className="min-h-screen" data-name="faq-app" data-file="faq-app.js">
         <Header />
         <main>
-          <Hero />
-          <Features />
-          <Process />
-          <Testimonials />
-          <Contact />
-          <FAQ />
+          <FAQContent />
         </main>
         <Footer />
       </div>
     );
   } catch (error) {
-    console.error('App component error:', error);
+    console.error('FAQApp component error:', error);
     return null;
   }
 }
@@ -59,6 +54,6 @@ function App() {
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <ErrorBoundary>
-    <App />
+    <FAQApp />
   </ErrorBoundary>
 );

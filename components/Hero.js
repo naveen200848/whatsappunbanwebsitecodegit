@@ -16,7 +16,7 @@ function Hero() {
                 Get Your WhatsApp Account Back
               </h1>
               <p className="text-xl md:text-2xl text-[var(--text-secondary)] mb-8 leading-relaxed">
-                <strong>Professional WhatsApp account recovery service in India.</strong> We help you regain access to your banned WhatsApp account <strong>quickly and safely</strong>.
+                <strong>Getting "This account can no longer use WhatsApp" or "WhatsApp banned due to spam"?</strong> We help you regain access to your banned WhatsApp account <strong>quickly and safely in India</strong>.
               </p>
             </div>
 

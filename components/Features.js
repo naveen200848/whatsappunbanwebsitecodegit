@@ -3,8 +3,8 @@ function Features() {
     const features = [
       {
         icon: 'zap',
-        title: 'Quick Recovery',
-        description: 'Fast and efficient account recovery process with most cases resolved within 24-48 hours.'
+        title: 'Fix "Account Can No Longer Use WhatsApp"',
+        description: 'Resolve all WhatsApp ban messages including spam-related bans and policy violations within 24-48 hours.'
       },
       {
         icon: 'shield-check',

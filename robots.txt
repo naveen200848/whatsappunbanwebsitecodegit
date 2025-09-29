@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: http://www.idigitalworks.com/
+Sitemap: https://agrf5sh3v7rv.trickle.host/sitemap.xml
