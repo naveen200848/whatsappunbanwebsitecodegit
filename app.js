@@ -1,3 +1,4 @@
+import Footer from './components/Footer';
 class ErrorBoundary extends React.Component {
   constructor(props) {
     super(props);
@@ -62,3 +63,5 @@ root.render(
     <App />
   </ErrorBoundary>
 );
+
+export default App;
